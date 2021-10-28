@@ -8,7 +8,7 @@ const debounce = (func, wait) => {
 }
 
 // normal function
-function debounce(func, wait) {
+function _debounce(func, wait) {
     let timer = null;
     return function () {
         if (timer) {

@@ -1,6 +1,6 @@
 // arrow function
 const debounce = (func, wait) => {
-    let timer = null;
+    let timer;
     return () => {
         clearTimeout(timer);
         timer = setTimeout(func, wait);

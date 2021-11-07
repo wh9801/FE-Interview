@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<div class="first">
+    <div class="f-text">fisrt!!!</div>
+</div>
+
+<div class="second">
+    <div class="s-text">
+        second!!!
+    </div>
+</div>
+
+
+<style>
+    .first {
+        width: 300px;
+        height: 300px;
+        border: blue solid 10px;
+    }
+
+    .first:hover {
+        width: 600px;
+    }
+
+    .f-text::before{
+        content:"Before!!!";
+        display: block;
+        width: 50px;
+        height: 50px;
+        background-color: burlywood;
+    }
+
+    .second {
+        width: 300px;
+        height: 300px;
+        border: brown solid 10px;
+    }
+
+    .second::after{
+        content:"After!!!";
+    }
+</style>
+<script>
+
+</script>

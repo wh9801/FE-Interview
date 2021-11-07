@@ -12,6 +12,7 @@ let node2 = new node(2, node4, node5);
 let node3 = new node(3, node6, node7);
 let node1 = new node(1, node2, node3);
 
+// 栈实现，非递归
 function dfs(root) {
     let stack = [];
     stack.push(root);
@@ -27,4 +28,14 @@ function dfs(root) {
     }
 }
 
+// 递归实现
+function dfs1(root){
+    if(!root)
+        return null;
+    console.log(root.val);
+    dfs1(root.left);
+    dfs1(root.right);
+}
+
 dfs(node1);
+dfs1(node1);

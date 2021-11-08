@@ -11,7 +11,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}\\Algorithm\\有效的数独.js"
+            "program": "${workspaceFolder}\\Algorithm\\快速排序.js"
         }
     ]
 }
